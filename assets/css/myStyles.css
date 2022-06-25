@@ -1,0 +1,57 @@
+/* Fonts */
+/* 
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stilo1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.stilo2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.stilo3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 6px 7px 18px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 7px 18px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 7px 18px -6px rgba(0, 0, 0, 0.75);
+}
+
+.sombraImg {
+    -webkit-box-shadow: 3px 4px 16px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 3px 4px 16px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 4px 16px 0px rgba(0, 0, 0, 0.4);
+}
+
+.sombraMarcas {
+    transition: transform .2s;
+}
+
+.sombraMarcas:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .separacionImgResponsive {
+        margin-bottom: 6rem !important;
+    }
+    .zoom:hover {
+        transform: scale(1);
+    }
+}
